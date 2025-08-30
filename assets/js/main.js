@@ -66,11 +66,11 @@ function updateSocials(profileData){
     const github = document.getElementById('profile.socials.github');
     if (linkedin && profileData.socials[0]?.linkedin) {
         linkedin.href = profileData.socials[0].linkedin;
-        linkedin.innerHTML = `<img src="https://raw.githubusercontent.com/Gamarques/js-developer-portfolio/refs/heads/main/data/imgs/LinkedIn.png" alt="LinkedIn" style="height:16px;vertical-align:middle;margin-right:4px;">LinkedIn`;
+        linkedin.innerHTML = `<img src="https://raw.githubusercontent.com/Gamarques/js-developer-portfolio/refs/heads/main/data/imgs/LinkedIn.png" alt="LinkedIn" style="height:36px;vertical-align:middle;margin-right:4px;">`;
     }
     if (github && profileData.socials[0]?.github) {
         github.href = profileData.socials[0].github;
-        github.innerHTML = `<img src="https://raw.githubusercontent.com/Gamarques/js-developer-portfolio/refs/heads/main/data/imgs/github.png" alt="GitHub" style="height:16px;vertical-align:middle;margin-right:4px;">GitHub`;
+        github.innerHTML = `<img src="https://raw.githubusercontent.com/Gamarques/js-developer-portfolio/refs/heads/main/data/imgs/github.png" alt="GitHub" style="height:36px;vertical-align:middle;margin-right:4px;">`;
     }
 }
 
