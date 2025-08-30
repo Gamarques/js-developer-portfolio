@@ -32,9 +32,9 @@ a:hover {
 .main::before,
 .main::after {
     content: '';
-    background-image: url('../img/background.svg');
+    background-image: url('../img/Shiny\ Overlay\ \(1\).svg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     display: inline-block;
     position: fixed;
     top: 0;
