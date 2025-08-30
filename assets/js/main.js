@@ -62,6 +62,21 @@ function updateProfessionalExperience(profileData) {
     }).join('')
 }
 
+function updateSocials(profileData){
+    const linkedin = document.getElementById('profile.socials.linkedin');
+    const github = document.getElementById('profile.socials.github');
+    if (linkedin && profileData.socials[0]?.linkedin) {
+        linkedin.href = profileData.socials[0].linkedin;
+        linkedin.textContent = "LinkedIn";
+    }
+    if (github && profileData.socials[0]?.github) {
+        github.href = profileData.socials[0].github;
+        github.textContent = "GitHub";
+    }
+}
+
+
+
 (async () => {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
@@ -70,4 +85,5 @@ function updateProfessionalExperience(profileData) {
     updateLanguages(profileData)
     updatePortfolio(profileData)
     updateProfessionalExperience(profileData)
+    updateSocials(profileData)
 })()

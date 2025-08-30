@@ -70,5 +70,11 @@
       "period": "junho 2023 - outubro 2023",
       "description": "Desenvolvi diversos sites e features para e-commerce utilizando plataformas como Linx e tray."
     }
+  ],
+  "socials": [
+    { 
+      "github": "https://github.com/Gamarques",
+      "linkedin": "https://www.linkedin.com/in/gabrielgamarques/"
+    }
   ]
 }
